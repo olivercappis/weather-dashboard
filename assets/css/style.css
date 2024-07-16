@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    width: 100%
+}
+
+
+header {
+    background: linear-gradient(0.25turn, #7b55f8, #5e0992);
+    color: white;
+    height: 4rem;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+.right {
+    height: fit-content;
+}
+
+.left {
+    padding: 10px;
+    padding-left: 10px;
+
+
+}
+
+input {
+    margin: 1rem;
+    width: 100%;
+}
+
+button {
+    margin: 1rem;
+    width: 100%;
+}
+
+.city {
+    /* padding: 0px; */
+    width: 90%;
+}
+
+#currentContainer {
+    border: 2px solid black;
+    margin-top: 15px;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.futureForecast {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    background-color: rgb(43, 31, 77);
+    width: 150px;
+    padding: 3px;
+}
+
+h2 {
+    margin-top: 10px;
+}
